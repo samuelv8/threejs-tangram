@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { DragControls } from 'three/examples/js/controls/DragControls';
+import { DragControls } from 'three/examples/jsm/controls/DragControls';
 
 // Defining tolerance to allow error margin.
 let tolerance = 1e-3;
@@ -721,7 +721,7 @@ function onMouseWheel(event) {
   if (intersects.length > 0) {
     const currObj = intersects[0].object;
     rotateObject(currObj, event.deltaY);
-  } else {
+  } else if(camera.zoom > 0.4 || event.deltaY < 0)  {
     camera.zoom -= 0.001 * event.deltaY;
     camera.updateProjectionMatrix();
   }
