@@ -1,4 +1,9 @@
-# Three.js - Template - Simple
+# Project 1 - CCI36
+
+## Contribuidores
+
+| [<img src="https://avatars.githubusercontent.com/u/47227182?v=4" width="115"><br><sub>@hentt30</sub>](https://github.com/hentt30) | [<img src="https://avatars.githubusercontent.com/u/78799492?v=4" width="115"><br><sub>@Samuelv8</sub>](https://github.com/samuelv8) | [<img src="https://avatars.githubusercontent.com/u/54087165?v=4" width="115"><br><sub>@caio-ggomes</sub>](https://github.com/caio-ggomes) |
+|:-:|:-:|:-:|
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
